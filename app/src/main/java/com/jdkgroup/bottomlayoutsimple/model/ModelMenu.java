@@ -1,4 +1,4 @@
-package com.jdkgroup.bottomlayoutsimple;
+package com.jdkgroup.bottomlayoutsimple.model;
 
 public class ModelMenu {
 

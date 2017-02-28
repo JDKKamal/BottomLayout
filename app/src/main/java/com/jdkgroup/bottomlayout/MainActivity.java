@@ -1,12 +1,12 @@
 package com.jdkgroup.bottomlayout;
 
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.jdkgroup.bottomlayoutsearch.Adapter.ActivityBottomLayoutSearch;
 import com.jdkgroup.bottomlayoutsimple.ActivityBottomLayoutSimple;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.tvBottomLayoutSearch:
-                //intent = new Intent(getApplicationContext(), .class);
-                //startActivity(intent);
+                intent = new Intent(getApplicationContext(), ActivityBottomLayoutSearch.class);
+                startActivity(intent);
                 break;
         }
     }

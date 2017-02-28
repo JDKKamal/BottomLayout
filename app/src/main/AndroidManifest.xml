@@ -17,6 +17,8 @@
         </activity>
 
         <activity android:name="com.jdkgroup.bottomlayoutsimple.ActivityBottomLayoutSimple" />
+        <activity android:name="com.jdkgroup.bottomlayoutsearch.Adapter.ActivityBottomLayoutSearch" />
+
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.jdkgroup.bottomlayoutsimple;
+package com.jdkgroup.bottomlayoutsimple.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jdkgroup.bottomlayout.R;
+import com.jdkgroup.bottomlayoutsimple.model.ModelMenu;
 
 import java.util.List;
 
